@@ -40,7 +40,7 @@ const projects=[
 
 export default function Projects() {
   return (
-    <div className="mt-10" id="mesprojets">
+    <div className="mt-10" id="Mesprojets">
       <Title title="Mes Projets" /> {/* Assuming Title component renders the title */}
       <div className="grid md:grid-cols-3 gap-4">
         {projects.map((project) => (
