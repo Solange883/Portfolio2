@@ -1,12 +1,12 @@
 {
   "name": "portfolio2",
   "private": true,
-  "homepage": "https://solange883.github.io/Portfolio2",
+  "homepage": "https://github.com/Solange883/Portfolio2.git",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist -r https://github.com/Solange883/Portfolio2.git",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
