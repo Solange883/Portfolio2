@@ -16,7 +16,7 @@ export default function Home() {
             <span className="text-secondary md:ml-7">Marie Solange Diouf</span>
             </h1>
 
-            <p className="my-4 text-xl text-center md:text-left md:ml-9">Développeur Full Stack</p>
+            <p className="my-4 text-xl text-center md:text-left md:ml-9">Développeur Full Stac</p>
 
            <div className="flex flew-row justify-center">
             <a href="mailto:soldesanges88@gmail.com" className="my-5 btn btn-secondary md:w-fit  ">
