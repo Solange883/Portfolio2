@@ -3,15 +3,17 @@ import img from '../assets/profil1.png'
 
 import { Download } from "lucide-react"
 
+
 export default function Home() {
-    
+
+  
   return (
     <div className="flex flex-col-reverse 
     md:flex-row justify-center items-center md:my-32 my-10" id="Accueil">
 
         <div className="flex flex-col justify-end md:justify-start"> 
             <h1 className="text-4xl md:text-5xl font-bold text-center  md:text-left md:ml-8 mt-4 md:mt-0">Bonjour,<br />je suis {" "}
-              <span className="text-secondary md:ml-7">Marie Solange Diouf</span>
+            <span className="text-secondary md:ml-7">Marie Solange Diouf</span>
             </h1>
 
             <p className="my-4 text-xl text-center md:text-left md:ml-9">Développeur Full Stack</p>
