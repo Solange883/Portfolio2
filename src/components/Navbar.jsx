@@ -8,7 +8,7 @@ export default function Navbar() {
         Solange<span className="text-secondary">Dev</span>
         </a>
         
-        <ul className="hidden md:flex space-x-4">
+        <ul className="hidden md:flex space-x-4 ">
             <li>
                 <a href="#Accueil" className="btn btn-sm btn-ghost">Accueil</a>
             </li>
@@ -24,6 +24,7 @@ export default function Navbar() {
         </ul>
         
     </div>
+   
   )
 }
 

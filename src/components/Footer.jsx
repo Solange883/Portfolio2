@@ -6,7 +6,7 @@ import { Linkedin } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="footer footer-center bg-primary text-primary-content p-10">
+    <footer className="footer footer-center bg-primary text-primary-content p-10 ">
     <aside>
     <Container  className="w-10 h-10"/>
       <p className="font-bold">
