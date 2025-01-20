@@ -9,21 +9,21 @@ export default function Home() {
   
   return (
     <div className="flex flex-col-reverse 
-    md:flex-row justify-center items-center md:my-32 my-10" id="Accueil">
+    md:flex-row justify-center items-center md:my-32 my-16" id="Accueil">
 
         <div className="flex flex-col justify-end md:justify-start"> 
-            <h1 className="text-4xl md:text-5xl font-bold text-center  md:text-left md:ml-1 mt-4 md:mt-0">Bonjour,<br />je suis {" "}
+            <h1 className="text-4xl md:text-5xl font-bold text-center md:text-left md:ml-5 mt-4 md:mt-0 md:whitespace-nowrap">Bonjour,<br />je suis {" "}
             <span className="text-secondary ">Marie Solange Diouf</span>
             </h1>
 
-            <p className="my-4 text-xl text-center md:text-left ">Développeur Full Stack</p>
+            <p className="my-4 text-xl text-center md:text-left md:ml-5 ">Développeuse Full Stack</p>
 
-           <div className="flex flew-row ">
-            <a href="mailto:soldesanges88@gmail.com" className="my-5 btn btn-secondary md:w-fit  ">
+           <div className="flex flew-row ml-12 md:ml-0">
+            <a href="mailto:soldesanges88@gmail.com" className="my-5 btn btn-secondary md:w-fit  ml-5">
              <Mail className="w-5 h-5" />
              Contactez-moi
             </a>
-            <a href="/CV/CV_MARIE_SOLANGE_DIOUF.pdf" className="my-5 btn btn-secondary md:w-fit ml-3">
+            <a href="/CV/CV_MARIE_SOLANGE_DIOUF.pdf" className="my-5 btn btn-secondary md:w-fit ml-3 ">
              <Download  className="w-5 h-5"/>
              Téléchargez CV
             </a>
@@ -32,7 +32,7 @@ export default function Home() {
 
         </div>
      
-        <div className="md:ml-60">
+        <div className="md:ml-40">
             <img src={img} alt="" className=" w-96 h-110 object-cover
             boder-8 border-secondary shadow-xl"
             style={{

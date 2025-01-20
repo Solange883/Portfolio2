@@ -2,13 +2,14 @@ import { Container } from "lucide-react"
 
 export default function Navbar() {
   return (
-    <div className="flex justify-center md:justify-between items-center p-4 ">
-        <a href="#" className="flex items-center font-bold text-3xl md:text-xl ">
+    <div className="flex justify-center md:justify-between items-center p-4 fixed ">
+        <a href="#" className="flex items-center font-bold text-3xl md:text-xl  ">
         <Container className="mr-2" />
         Solange<span className="text-secondary">Dev</span>
         </a>
         
-        <ul className="hidden md:flex space-x-4 ">
+       <div className="md:pl-80">
+        <ul className="hidden md:flex space-x-20 ">
             <li>
                 <a href="#Accueil" className="btn btn-sm btn-ghost">Accueil</a>
             </li>
@@ -22,6 +23,8 @@ export default function Navbar() {
             </li>
 
         </ul>
+        </div>
+       
         
     </div>
    

@@ -12,6 +12,7 @@ const projects=[
     {
         id:1,
         title:'Porfolio',
+        description:'sss a',
         technologies:['Html','CSS','JS'],
         demoLink:'#',
         repoLink:'#',
@@ -20,6 +21,7 @@ const projects=[
     {
         id:2,
         title:'Porfolio',
+        description:'sss',
         technologies:['React','Tailwind CSS'],
         demoLink:'#',
         repoLink:'#',
@@ -28,6 +30,7 @@ const projects=[
     {
         id:3,
         title:'Gestionnaire de tache',
+        description:'sss',
         technologies:['React','Node.js','Tailwind CSS'],
         demoLink:'#',
         repoLink:'#',
@@ -51,6 +54,7 @@ export default function Projects() {
              <div>
                <h1 className="my-2 font-bold">{project.title}</h1>     {/* Assuming title property exists */}
              </div>
+             <p className="text-sm">{project.description}</p>
             
              <div className="flex flex-wrap gap-2 my-3">
                {project.technologies.map((tech) => (
