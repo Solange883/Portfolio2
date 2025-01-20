@@ -12,7 +12,7 @@ export default function Home() {
     md:flex-row justify-center items-center md:my-32 my-16" id="Accueil">
 
         <div className="flex flex-col justify-end md:justify-start"> 
-            <h1 className="text-4xl md:text-5xl font-bold text-center md:text-left md:ml-5 mt-4 md:mt-0 md:whitespace-nowrap">Bonjour,<br />je suis {" "}
+            <h1 className="text-4xl md:text-5xl font-bold text-center md:text-left md:ml-5 mt-4 md:mt-0 whitespace-nowrap md:whitespace-nowrap">Bonjour,<br />je suis {" "}
             <span className="text-secondary ">Marie Solange Diouf</span>
             </h1>
 
