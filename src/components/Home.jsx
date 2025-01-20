@@ -9,7 +9,7 @@ export default function Home() {
   
   return (
     <div className="flex flex-col-reverse 
-    md:flex-row justify-center items-center md:my-32 my-16" id="Accueil">
+    md:flex-row justify-center items-center md:my-32 my-16 " id="Accueil">
 
         <div className="flex flex-col justify-end md:justify-start"> 
             <h1 className="text-4xl md:text-5xl font-bold text-center md:text-left md:ml-5 mt-4 md:mt-0 whitespace-nowrap md:whitespace-nowrap">Bonjour,<br />je suis {" "}
@@ -18,8 +18,8 @@ export default function Home() {
 
             <p className="my-4 text-xl text-center md:text-left md:ml-5 ">Développeuse Full Stack</p>
 
-           <div className="flex flew-row ml-12 md:ml-0">
-            <a href="mailto:soldesanges88@gmail.com" className="my-5 btn btn-secondary md:w-fit  ml-5">
+           <div className="flex flew-row justify-center md:justify-start md:ml-6">
+            <a href="mailto:soldesanges88@gmail.com" className="my-5 btn btn-secondary md:w-fit ">
              <Mail className="w-5 h-5" />
              Contactez-moi
             </a>
