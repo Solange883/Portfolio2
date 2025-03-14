@@ -50,10 +50,10 @@ export default function Experiences() {
                 {skills.map((skill) => (
                     // eslint-disable-next-line react/jsx-key
                     <div key={skill.id} className="flex justify-center items-center flex-col">
-                        <div className="w-15 h-10 p-2 rounded-full border-2 border-secondary">
+                        <div className="w-15 h-10 p-2 rounded-full border-2 border-secondary ">
                             <img src={skill.image} alt={skill.name} className="object-cover rounded-full h-full w-full"/>
                         </div>
-                        <span className="mt-2 text-sm">{skill.name}</span>
+                        <span className="mt-2 text-xs">{skill.name}</span>
                     </div>
                 ))}
               

@@ -12,11 +12,7 @@ export default function About() {
             </div>
 
             <div className="md:ml-10 " >
-              <p className="text-center md:text-left">Etudiante en Licence informatique option génie logiciel , je suis à la recherche d’un stage,
-               pour mettre en pratique mes connaissances et développer mes compétences dans ce
-               domaine. Je suis rigoureuse, organisée et capable de travailler de manière autonome et en
-               équipe. Je suis convaincue que l’informatique a le potentiel de changer le monde, et je
-               souhaite contribuer à ce changement.
+              <p className="text-center md:text-left">Récemment diplômée en Licence informatique, option génie logiciel, je suis à la recherche d’un stage pour appliquer mes compétences et approfondir mes connaissances dans ce domaine. Passionnée, rigoureuse et organisée, je suis prête à relever des défis en travaillant aussi bien de manière autonome qu'en équipe. Convaincue que l'informatique peut transformer le monde, je souhaite participer activement à cette évolution.
               </p>
             </div> 
 

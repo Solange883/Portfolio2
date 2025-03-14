@@ -9,34 +9,35 @@ import { Video } from "lucide-react"
 import { Github } from "lucide-react"
 
 const projects=[
-    {
+   {
         id:1,
-        title:'Porfolio',
-        description:'sss a',
-        technologies:['Html','CSS','JS'],
-        demoLink:'#',
-        repoLink:'#',
-        image:img1,
-    },
-    {
-        id:2,
-        title:'Porfolio',
-        description:'sss',
-        technologies:['React','Tailwind CSS'],
-        demoLink:'#',
-        repoLink:'#',
-        image:img2,
-    },
-    {
-        id:3,
-        title:'Gestionnaire de tache',
-        description:'sss',
-        technologies:['React','Node.js','Tailwind CSS'],
+        title:'Site E-commerce cosmetiques',
+        description:'MERN Stack',
+        technologies:['React','Node.js','Express','CSS','MongoDB'],
         demoLink:'#',
         repoLink:'#',
         image:img3,
 
-    }
+    },
+    {
+        id:2,
+        title:'Porfolio',
+        description:'',
+        technologies:['Html','CSS','JavaScript'],
+        demoLink:'#',
+        repoLink:'https://github.com/Solange883/Portfolio.git',
+        image:img1,
+    },
+    {
+        id:3,
+        title:'Porfolio',
+        description:'',
+        technologies:['React','Tailwind CSS'],
+        demoLink:'#',
+        repoLink:'https://github.com/Solange883/Portfolio2.git',
+        image:img2,
+    },
+   
 ];
 
 
