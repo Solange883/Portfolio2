@@ -33,8 +33,8 @@ const skills=[
     {id:11,name:"PHP",image:imgPHP},
     {id:12,name:"PYTHON",image:imgPYTHON},
     {id:13,name:"REACT",image:imgREACT},
-    {id:14,name:"SQL",image:imgSQL},
-    {id:15,name:"SQL1",image:imgSQL1},
+    {id:14,name:"MySQL",image:imgSQL},
+    {id:15,name:"SQL",image:imgSQL1},
     {id:16,name:"TAILWINDCSS",image:imgTAILWINDCSS},
   
 ];
@@ -44,18 +44,35 @@ export default function Experiences() {
   return (
     <div id="Competences">
         <Title title="Mes compétences"/>
-        <div>
+        <div className="flex flex-col-reverse md:flex-row">
+
             <div className="flex flex-wrap gap-4 justify-center items-center  mt-4 md:mt-0">
                 {skills.map((skill) => (
                     // eslint-disable-next-line react/jsx-key
                     <div key={skill.id} className="flex justify-center items-center flex-col">
-                        <div className="w-24 h-24 p-2 rounded-full border-2 border-secondary">
+                        <div className="w-15 h-10 p-2 rounded-full border-2 border-secondary">
                             <img src={skill.image} alt={skill.name} className="object-cover rounded-full h-full w-full"/>
                         </div>
                         <span className="mt-2 text-sm">{skill.name}</span>
                     </div>
                 ))}
               
+            </div>
+
+            <div className="md:ml-4 flex flex-col space-y-4">
+                <div className="flex flex-col bg-base-200 p-5 rounded-xl shadow-lg">
+                    <div className="flex items-center">
+                        <ul className="list-disc ml-4 text-sm">
+                            <li>Connaissance des bases de données MySQL et MongoDB.</li>
+                            <li>Connaissance des bases de Node.js, PHP pour la création d'APIs.</li>
+                            <li>Maîtrise des principes de la création et consommation d'APIs REST.</li>
+                            <li>Création de sites web réactifs et modernes avec Bootstrap et Tailwind CSS.</li>
+                            <li>Gestion des versions avec Git: Collaboration en équipe sur des projets de développement avec Git, GitHub.</li>
+                            <li>Déploiement : Familiarité avec des outils de déploiement comme Docker,Kubernetes</li>
+                        </ul>
+                    </div>
+
+                </div>
             </div>
             
         </div>
