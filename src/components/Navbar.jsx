@@ -2,7 +2,7 @@ import { Container } from "lucide-react"
 
 export default function Navbar() {
   return (
-    <div className="flex justify-center md:justify-between items-center p-4 fixed ">
+    <div className="flex justify-center md:justify-between items-center p-4 fixed shadow-lg ">
         <a href="#" className="flex items-center font-bold text-3xl md:text-xl  ">
         <Container className="mr-2" />
         Solange<span className="text-secondary">Dev</span>
