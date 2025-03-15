@@ -42,7 +42,7 @@ const projects=[
         id:4,
         title:'Porfolio',
         description:'',
-        technologies:['React','Tailwind CSS'],
+        technologies:['React','TailwindCSS'],
         demoLink:'#',
         repoLink:'https://github.com/Solange883/Portfolio2.git',
         image:img2,
@@ -56,7 +56,7 @@ export default function Projects() {
   return (
     <div className="mt-10" id="Mesprojets">
       <Title title="Mes Projets" /> {/* Assuming Title component renders the title */}
-      <div className="grid md:grid-cols-3 w-200 grid-cols-2 gap-10">
+      <div className="grid md:grid-cols-3 w-200 grid-cols-2 gap-2">
         {projects.map((project) => (
 
           <div key={project.id}  className="bg-base-300 p-5  h-fit rounded-xl shadow-lg"> {/* Add a unique key for each project */}
@@ -67,19 +67,19 @@ export default function Projects() {
              </div>
              <p className="text-sm">{project.description}</p>
             
-             <div className="flex flex-wrap gap-2 my-3">
+             <div className="grid grid-cols-2 gap-2 my-2  mr-5 ">
                {project.technologies.map((tech) => (
                 // eslint-disable-next-line react/jsx-key
-                <span className="badge badge-secondary w-2/3">{tech}</span>
+                <span className="badge badge-secondary w-50 ">{tech}</span>
                 ))}
              </div>
 
-             <div className="flex  ">
-                <a className=" btn btn-neutral w-12 " href={project.demoLink}>Demo
+             <div className="flex md:gap-4 gap-1">
+                <a className=" btn btn-neutral  " href={project.demoLink}>Demo
                 <Video className="w-3 " />
                 </a>
 
-                <a className="btn btn-secondary w-13  " href={project.repoLink}>Github
+                <a className="btn btn-secondary " href={project.repoLink}>Github
                 <Github className="w-4" />
                
                 </a>
