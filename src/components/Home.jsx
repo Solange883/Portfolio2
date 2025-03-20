@@ -23,7 +23,7 @@ export default function Home() {
              <Mail className="w-5 h-5" />
              Contactez-moi
             </a>
-            <a href="/Portfolio2/CV/CV_MARIE_SOLANGE_DIOUF.pdf" className="my-5 btn btn-secondary md:w-fit ml-3 ">
+            <a href="/CV/CV_MARIE_SOLANGE_DIOUF.pdf" className="my-5 btn btn-secondary md:w-fit ml-3 ">
              <Download  className="w-5 h-5"/>
              Téléchargez CV
             </a>
