@@ -1,0 +1,6 @@
+{
+    "routes": [
+      { "src": "/CV/(.*)", "dest": "/public/CV/$1" }
+    ]
+  }
+  
