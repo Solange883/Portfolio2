@@ -15,8 +15,8 @@ const projects=[
         title:'Site E-commerce cosmetiques',
         description:'MERN Stack',
         technologies:['React','Node.js','Express.js','CSS','MongoDB'],
-        demoLink:'#',
-        repoLink:'#',
+        demoLink:'https://ecommerce1-frontend-iw62.onrender.com/',
+        repoLink:'https://github.com/Solange883/Ecommerce1.git',
         image:img3,
 
     },
