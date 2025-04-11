@@ -5,6 +5,7 @@ import img1 from "../assets/projects/projet1.png"
 import img2 from "../assets/projects/projet2.png"
 import img3 from "../assets/projects/1.png"
 import img4 from "../assets/projects/projet3.png"
+import img5 from "../assets/projects/projet4.png"
 
 import { Video } from "lucide-react"
 import { Github } from "lucide-react"
@@ -22,6 +23,16 @@ const projects=[
     },
     {
       id:2,
+      title:'Plateforme de gestion dévénements',
+      description:'',
+      technologies:['Angular','Laravel','Mysql','Bootstrap'],
+      demoLink:'',
+      repoLink:'https://github.com/Solange883/EventManager.git',
+      image:img5,
+
+  },
+    {
+      id:3,
       title:"Logiciel pour la gestion des donnees et deliberation des candidats pour l'examen du BFEM au Senegal ",
       description:'POO',
       technologies:['Python','Tkinter','SQLite'],
@@ -30,7 +41,7 @@ const projects=[
       image:img4,
   },
     {
-        id:3,
+        id:4,
         title:'Porfolio',
         description:'',
         technologies:['Html','CSS','JavaScript'],
