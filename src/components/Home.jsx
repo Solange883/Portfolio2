@@ -19,7 +19,7 @@ export default function Home() {
             <p className="my-4 text-xl text-center md:text-left md:ml-5 ">Développeuse Full Stack</p>
 
            <div className="flex flew-row justify-center md:justify-start md:ml-6">
-            <a href="mailto:soldesanges88@gmail.com" className="my-5 btn btn-secondary md:w-fit ">
+            <a href="mailto:mariesolanged713@gmail.com" className="my-5 btn btn-secondary md:w-fit ">
              <Mail className="w-5 h-5" />
              Contactez-moi
             </a>
